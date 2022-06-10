@@ -7,7 +7,7 @@ function JobList() {
   useEffect(() => {
     (function readData() {
       axios
-        .get("http://localhost:3000/events")
+        .get("https://6270ca6c6a36d4d62c1d8729.mockapi.io/crud/sample/Test")
         // https://6270ca6c6a36d4d62c1d8729.mockapi.io/crud/sample/Test
         // "https://6270ca6c6a36d4d62c1d8729.mockapi.io/crud/sample/users"
       // "https://6270ca6c6a36d4d62c1d8729.mockapi.io/crud/sample/Test"
